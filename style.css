@@ -1,3 +1,7 @@
+html{
+    background-color: rgb(230, 211, 248);
+}
+
 .text-center{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,26 +14,17 @@
     padding: 20px;
     margin: 0 3px;
     border: 2px solid black;
-    border-radius: 12px;
+    border-radius: 20px;
+    width: 64px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 20px;
-    font-size: medium;
+    font-size: x-large;
 }
 
-.btn-del{
-    padding: 20px 14px;
-    margin-left: 2px;
-}
-
-.btn-minus{
-    margin-left: 5px;
-    padding: 20px 22px;
-}
-
-.btn-divide{
-    padding: 20px 22px;
-}
+.btn-zero{
+    padding-right: 7vw;
+} 
 
 .button:hover {
     background-color: rgb(0, 0, 0);
@@ -41,10 +36,10 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(172, 171, 171);
-    margin: 5rem 38rem;
+    margin: 3rem 37rem;
     padding: 2rem 0;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .row{
@@ -52,9 +47,10 @@
 }
 
 .row input{
-    font-size: 19px;
+    font-size: 20px;
+    font-weight: bold;
     margin: 0;
-    padding: 10px 4px;
+    padding: 10px 10px;
     border: 2px solid black;
     border-radius: 5px;
 }
